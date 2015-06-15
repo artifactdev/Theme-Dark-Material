@@ -550,7 +550,7 @@
 			"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
 			"settings": ["bold_folder_labels"],
 			"font.bold": true,
-			"color": [70, 172, 219]
+			"color": [109, 173, 203]
 		},
 
 		{
@@ -564,13 +564,13 @@
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
 			"settings": ["bold_folder_labels"],
 			"font.bold": true,
-			"color": [70, 172, 219]
+			"color": [109, 173, 203]
 		},
 
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-			"color": [70, 172, 219]
+			"color": [109, 173, 203]
 		},
 
 		{
