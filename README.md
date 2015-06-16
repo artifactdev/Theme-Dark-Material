@@ -3,11 +3,11 @@ This theme brings flat material similar visual language to your Sublime Text 3. 
 
 ## Screenshots
 
-![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.jpg)
+![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.png)
 
-![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.jpg)
+![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.png)
 
-![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.jpg)
+![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.png)
 
 ## Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Theme-Dark-Material"*, install, **restart Sublime Text** and enjoy!
