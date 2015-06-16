@@ -3,14 +3,14 @@ This theme brings flat material similar visual language to your Sublime Text 3. 
 
 ## Screenshots
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
+![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.jpg)
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme2.png)
+![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.jpg)
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme3.png)
+![image](http://artifactdev.github.io/Theme-Dark-Material/assets/dark-material-1.jpg)
 
 ## Easy installation
-You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Theme-DarkMaterial"*, install, **restart Sublime Text** and enjoy!
+You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Theme-Dark-Material"*, install, **restart Sublime Text** and enjoy!
 
 --
 
@@ -40,7 +40,3 @@ I suggest you to use this custom settings for a better experience with the theme
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true
 ```
-
-The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
-
-You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
