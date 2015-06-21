@@ -10,7 +10,7 @@ This theme brings flat material similar visual language to your Sublime Text 3. 
 ![image](https://raw.githubusercontent.com/artifactdev/Theme-Dark-Material/master/assets/dark-material-3.png)
 
 ## Easy installation
-You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"TTheme - Dark Marterial"*, install, **restart Sublime Text** and enjoy!
+You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"TTheme - Dark Material"*, install, **restart Sublime Text** and enjoy!
 
 Follow Installation instructions in Sublime.
 
@@ -18,7 +18,7 @@ Follow Installation instructions in Sublime.
 
 **Manual installation**
 
-1. Download the [latest release](https://github.com/artifactdev/Theme-Dark-Material/releases/latest), extract and rename the folder to "Theme - Dark Marterial".
+1. Download the [latest release](https://github.com/artifactdev/Theme-Dark-Material/releases/latest), extract and rename the folder to "Theme - Dark Material".
 
 2. Move the folder inside your sublime Packages directory. (Preferences > Browse packages...)
 
@@ -26,7 +26,7 @@ Follow Installation instructions in Sublime.
 
 ```json
 "theme": "Dark-Material.sublime-theme",
-"color_scheme": "Packages/Theme - Dark Marterial/schemes/Dark-Material.tmTheme",
+"color_scheme": "Packages/Theme - Dark Material/schemes/Dark-Material.tmTheme",
 ```
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
