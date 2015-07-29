@@ -10,7 +10,7 @@ This theme brings flat material similar visual language to your Sublime Text 3. 
 ![image](https://raw.githubusercontent.com/artifactdev/Theme-Dark-Material/master/assets/dark-material-3.png)
 
 ## Easy installation
-You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"TTheme - Dark Material"*, install, **restart Sublime Text** and enjoy!
+You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Theme - Dark Material"*, install, **restart Sublime Text** and enjoy!
 
 Follow Installation instructions in Sublime.
 

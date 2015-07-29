@@ -213,6 +213,14 @@
 		},
 
 			// Panel labels
+			// 
+		{
+			"class": "quick_panel_label",
+			"fg": [176, 190, 197, 255],
+			"match_fg": [128, 203, 196, 255],
+			"selected_fg": [255, 255, 255, 255],
+			"selected_match_fg": [128, 203, 196, 255]
+		},
 
 		{
 			"class": "quick_panel_label",
@@ -248,13 +256,11 @@
 
 		{
 			"class": "tabset_control",
-
 			"layer0.opacity": 1.0,
 			"layer0.tint": [38, 50, 56],
 			"tint_index": 0,
 			"layer0.inner_margin": [2, 6],
 			"layer0.opacity": 1.0,
-
 			"content_margin": [12, -8, 8, 0],
 			"tab_overlap": 0,
 			"tab_width": 180,
@@ -585,33 +591,28 @@
 			"class": "icon_file_type",
 			// layer0.texture is filled in by code with the relevant icon name
 			"layer0.opacity": 0.6,
-			"content_margin": [8, 8]
+			"content_margin": [9, 9]
 		},
 		{
 			"class": "icon_file_type",
 			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
 			"layer0.opacity": 1,
-			"content_margin": [8, 8]
+			"content_margin": [9, 9]
 		},
 
 			// Secondary folder icon (original) used as main folder icon
 
 		{
 			"class": "icon_folder",
+			"content_margin": [13, 8],
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0,
 			"layer1.texture": "Theme - Dark Material/assets/commons/folder.png",
 			"layer1.opacity": 1,
-			"content_margin": [13, 8]
-		},
-
-		{
-			"class": "icon_folder",
-			"parents":
-			[
-				{ "class": "tree_row", "attributes": ["hover"] }
-			],
-			"layer1.texture": "Theme - Dark Material/assets/commons/folder--hover.png",
+			"layer2.texture": "Theme - Dark Material/assets/commons/folder--hover.png",
+			"layer2.opacity": 0.0,
+			"layer3.texture": "Theme - Dark Material/assets/commons/folder_opened--hover.png",
+			"layer3.opacity": 0.0,
 		},
 
 		{
@@ -620,8 +621,62 @@
 			[
 				{ "class": "tree_row", "attributes": ["expanded"] }
 			],
-			"layer1.texture": "Theme - Dark Material/assets/commons/folder_opened--hover.png",
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.opacity": 1.0,
 		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["hover"] }
+			],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 1.0,
+			"layer3.opacity": 0.0,
+		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["expanded", "hover"] }
+			],
+			"layer3.texture":
+			{
+				"keyframes":
+				[
+					"Theme - Dark Material/assets/commons/folder_opened--hover-0.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-1.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-2.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-3.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-4.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-5.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-5.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-5.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-6.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-6.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-6.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-6.png",
+					"Theme - Dark Material/assets/commons/folder_opened--hover-7.png",
+				],
+				"loop": false,
+				"frame_time": 0.020,
+			},
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.opacity": 1.0,
+		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["selected"] }
+			],
+			"layer1.texture": "Theme - Dark Material/assets/commons/folder--hover.png",
+		},		
 
 			// Folder loading
 
@@ -648,11 +703,26 @@
 			"content_margin": [8, 8]
 		},
 
+			// Symlink folder icon
+
 		{
 			"class": "icon_folder_dup",
 			"layer0.texture": "Theme - Dark Material/assets/commons/folder_dup.png",
 			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
+			"content_margin": [13, 8]
+		},
+
+		{
+			"class": "icon_folder_dup",
+			"parents":
+			[{ "class": "tree_row", "attributes": ["hover"] }],
+			"layer0.texture": "Theme - Dark Material/assets/commons/folder_dup--hover.png"
+		},
+
+		{
+			"class": "icon_folder_dup",
+			"parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+			"layer0.texture": "Theme - Dark Material/assets/commons/folder_dup--hover.png"
 		},
 
 			// Hidden arrow icon before folder
