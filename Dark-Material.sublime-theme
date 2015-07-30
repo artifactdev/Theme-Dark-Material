@@ -83,7 +83,7 @@
 
 		{
 			"class": "popup_control",
-			"layer0.texture": [255, 255, 255, 255],
+			"layer0.tint": [255, 255, 255, 255],
 			"layer0.opacity": 1.0,
 			"content_margin": [0, 0]
 		},
@@ -192,6 +192,16 @@
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 1.0
 		},
+
+		// Quick panel (project) style inside overlay_control (cmd + shift + p)
+
+        {
+            "class": "quick_panel",
+            "parents": [{"class": "overlay_control"}],
+            "row_padding": [32, 12],
+            "layer0.tint": [38, 50, 56, 0],
+            "layer0.opacity": 1.0
+        },
 
 			// Quick Panel selected list item style
 
@@ -1074,7 +1084,7 @@
 			"layer1.inner_margin": [2, 2, 2, 2],
 			"layer1.opacity": 1.0,
 
-			"content_margin": [6, 14, 0, 14],
+			"content_margin": [6, 14, 6, 8],
 			"layer0.opacity": 1.0
 		},
 
@@ -1104,7 +1114,7 @@
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [20, 5, 20, 5],
 			"tint_index": 1,
-			"content_margin": [24, 8, 16, 8]
+			"content_margin": [10, 8, 16, 8]
 		},
 
 
@@ -1115,7 +1125,7 @@
 			"parents": [{"class": "overlay_control"}],
 			"layer0.texture": "Theme - Dark Material/assets/commons/input_field_border--short.png",
 			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [32, 2, 32, 2],
+			"layer0.inner_margin": [32, 0, 32, 2],
 			"layer0.draw_center": true,
 
 			"content_margin": [32, 8, 32, 8]
