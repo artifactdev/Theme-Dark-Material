@@ -1,6 +1,8 @@
 # Dark Material Theme for Sublime Text 3
 This theme brings flat material similar visual language to your Sublime Text 3. If you have problems report them with an [issue](https://github.com/artifactdev/Theme-Dark-Material/issues).
 
+This theme is a fork of the original [Material Theme](https://github.com/equinusocio/material-theme) by [equinusocio](https://github.com/equinusocio) which I edited to fit better to my needs.
+
 ## Screenshots
 
 ![image](https://raw.githubusercontent.com/artifactdev/Theme-Dark-Material/master/assets/dark-material-1.png)
